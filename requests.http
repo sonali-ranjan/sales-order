@@ -1,0 +1,11 @@
+### Create Product
+
+POST http://localhost:8080/odata/v4/salesOrde/Order
+Content-Type: application/json
+
+{"salesOrderSeq" : 12345, "orderId" : 245, "modelSeq" : 356789, "businessUnit" 
+        {
+            "businessUnitSeq" : 2468,
+            "name" : "Telco"
+        }
+}
